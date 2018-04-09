@@ -1,0 +1,164 @@
+.div.container {
+
+}
+
+
+.header {
+text-align: left;
+color: #8FBC8F;
+background: white;
+padding: 2.5em;
+}
+
+.footer {
+text-align: left;
+color: #8FBC8F;
+background: white;
+padding: 2.5em;
+
+}
+
+.aside {
+	margin: left; 
+	clear: none; 
+	float: left;
+	background: #659259;
+	list-style-type: none;
+	display: block;
+	margin-right: 0;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+	font-size: 93.75%;
+}
+
+.li {
+	font-family: 'Anton', sans-serif; 
+	font-size: 100%; 
+	list-style-type: none; 
+	float: right; 
+	margin: 0px; 
+	padding: 10px; 
+	overflow: hidden; 
+	font-color: black; 
+	font-weight: bold;
+}
+
+.section {
+	display: inline-block;
+	margin-top: -10;
+    border: 50px;
+	padding: 25px;
+	margin-left: 0px;
+	margin-top: -100px;
+	margin-right: 20px;
+
+}
+
+.article {
+	margin-bottom: 60px;
+	margin-left: -90px;
+	float: right;
+	margin-top: -20px;
+
+}
+
+
+
+
+.img {
+
+}
+
+.h2 {
+font-family: 'Anton', sans-serif; 
+font-weight: bold;
+font-size: 118.75%; 
+margin-left: 500px;
+margin-bottom: 10px;
+}
+
+.p {
+font-family: 'Lora', serif; 
+margin-left: 500px;
+font-size: 75%
+}
+
+.h4 {
+
+	font-family: 'Lora', serif;
+	font-size: 75%; 
+	font-weight: bold; 
+	margin-left: 500px; 
+	text-align: justify; 
+	color: #006400; 
+	margin-top: -30px;
+
+}
+
+.footer {
+	font-family: Futura; 
+	font-weight: bold; 
+	padding: left;
+	background-color: #659259;
+}
+
+.title {
+	margin-left: 1.5625em;
+	font-family: 'Rammetto One', cursive;
+	font-family: 'Shrikhand', cursive;
+	background-color:  #8FBC8F;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+  background-color: #FDFEF2;
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: #E8F08F;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #D6FDCD;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: #FDE89B;
+  }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #659259;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #659259;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
